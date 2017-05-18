@@ -7,6 +7,8 @@
 </head>
 <body>
 <h1><font color="blue">Hello</font>, <font color="blue">OpenShift.</font></h1> <font color="green"><p>How are you doing today</p></font>
+Current Time of the date is :: <b><font color="red"><div id="date"></div></font></b>
+
 <script>
 n =  new Date();
 y = n.getFullYear();
@@ -18,8 +20,5 @@ ss= n.getSeconds();
 document.getElementById("date").innerHTML = d + "-" + m + "-" + y + " "+hh+":"+mm+":"+ss;
 
 </script>
-
-Current Time of the date is <p id="date"></p>
-
 </body>
 </html>
